@@ -4,6 +4,8 @@ def prime?(num)
       return false
     elsif num % n == 0
       return false
-    elsif num
-  true
+    else
+      true
+    end
+  end
 end
