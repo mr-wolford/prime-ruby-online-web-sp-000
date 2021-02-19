@@ -1,7 +1,4 @@
 def prime?(x)
-  if x == 2
-    return true
-  else
-    return false
-  end
+  range = (-100..100).to_a
+  puts range
 end
